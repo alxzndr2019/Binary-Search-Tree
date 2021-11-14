@@ -1,6 +1,6 @@
 
 
-let num = [2,7,8,10,11,12,16,20,16]
+let num = [2,7,8,10,11,12,14,16,20,16]
 
 function BinarySearch (array,target){
   left = 0
@@ -19,4 +19,4 @@ function BinarySearch (array,target){
   return false
 }
 
-console.log(BinarySearch(num,12))
+console.log(BinarySearch(num,16))
